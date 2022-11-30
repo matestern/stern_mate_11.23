@@ -10,4 +10,6 @@ while choice!='0':
     elif choice=='2':
         RealEstatesforRent()
     elif choice=='3':
-        pass
+        KeresesTipus()
+    elif choice=='4':
+        OlcsoLakas()

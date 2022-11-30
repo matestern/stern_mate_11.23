@@ -1,1 +1,4 @@
-realestates={}
+helye=[]
+ar=[]
+haz=[]
+hirdetés=[]
