@@ -13,3 +13,5 @@ while choice!='0':
         KeresesTipus()
     elif choice=='4':
         OlcsoLakas()
+    elif choice=='5':
+        DragaLakas()

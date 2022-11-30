@@ -10,6 +10,7 @@ def menu():
     print('2 - Kiadó ingatlanok')
     print('3 - Lakás vagy családiház')
     print('4 - Melyik a legolcsóbb lakás')
+    print('5 - Melyik a legdrágább ház')
     return input('Kérem válasszon: ')
 
 def loadRealEastates():
@@ -57,7 +58,7 @@ def OlcsoLakas():
             print(f'{helye[i]} , {ar[minpoz]} Ft {haz[i]}')
     input("Tovább......")
 
-def OlcsoLakas():
+def DragaLakas():
     system('cls')
     print('A legolcsóbb lakás: ')
     maxpoz=0
