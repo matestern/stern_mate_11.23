@@ -56,6 +56,16 @@ def OlcsoLakas():
             minpoz=i
             print(f'{helye[i]} , {ar[minpoz]} Ft {haz[i]}')
     input("Tovább......")
+
+def OlcsoLakas():
+    system('cls')
+    print('A legolcsóbb lakás: ')
+    maxpoz=0
+    for i in range(len(ar)):
+        if ar[i]>ar[maxpoz]:
+            maxpoz=i
+            print(f'{helye[i]} , {ar[maxpoz]} Ft {haz[i]}')
+    input("Tovább......")
     
     
 
